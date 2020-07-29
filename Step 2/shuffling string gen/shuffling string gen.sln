@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shuffling string gen", "shuffling string gen\shuffling string gen.vcxproj", "{147CC2C6-3682-48BB-AE0C-90CA34C2B025}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{147CC2C6-3682-48BB-AE0C-90CA34C2B025}.Debug|x64.ActiveCfg = Debug|x64
+		{147CC2C6-3682-48BB-AE0C-90CA34C2B025}.Debug|x64.Build.0 = Debug|x64
+		{147CC2C6-3682-48BB-AE0C-90CA34C2B025}.Debug|x86.ActiveCfg = Debug|Win32
+		{147CC2C6-3682-48BB-AE0C-90CA34C2B025}.Debug|x86.Build.0 = Debug|Win32
+		{147CC2C6-3682-48BB-AE0C-90CA34C2B025}.Release|x64.ActiveCfg = Release|x64
+		{147CC2C6-3682-48BB-AE0C-90CA34C2B025}.Release|x64.Build.0 = Release|x64
+		{147CC2C6-3682-48BB-AE0C-90CA34C2B025}.Release|x86.ActiveCfg = Release|Win32
+		{147CC2C6-3682-48BB-AE0C-90CA34C2B025}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59DEC123-93CA-4AEF-B279-E00E5E4F3A73}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+This .exe file is the release version. All you need to do is double clicking it. It generates a .txt file for you.
+
+If this default version works well for you, this is all you need to know.
+
+If you need further control, the source code is in another fold named Step 2.
