@@ -62,7 +62,7 @@ public:
 		day_name_in_week.push_back("Fri");
 		day_name_in_week.push_back("Sat");
 
-		prefix_for_txt = std::string("Dirac's cubing tool - Shuffling formula gen 1.0\n\n")
+		prefix_for_txt = std::string("Dirac's cubing tool - Shuffling formula gen 1.01\n\n")
 			+ std::to_string(newtime.tm_year+1900)
 			+"-"
 			+ month_name[newtime.tm_mon]
@@ -99,10 +99,9 @@ public:
 			{
 				buffer += "\n" + std::to_string(n + 1) + ": \n\n";
 			}
-			else
-			{
-				if (n % 2 == 0)buffer += "\n";
-			}
+
+			buffer += "\n";
+			
 				
 			//init
 			bool avail_bools[6];
@@ -113,10 +112,9 @@ public:
 			this_formula = "";
 
 
-			for (size_t i = 0; i < 20; i++)//公式长度20
+			for (size_t i = 0; i < 18; i++)//公式长度20
 			{
-				//断开，方便看。
-				if (i % 10 == 0 && i > 0) this_formula += "  \t";
+				 
 
 				std::vector<int> avail_indeces;
 				avail_indeces.reserve(5);
